@@ -1,7 +1,6 @@
 # Satellite Images Semantic Segmentation of Water Bodies using U-Net
 
 **Semantic Segmentation**:
-Image result for image semantic segmentation meaning
 Semantic segmentation, or image segmentation, is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category.
 
 CNN Model Used: **U-Net Model**
