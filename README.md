@@ -25,3 +25,8 @@ Reference notebook: https://www.kaggle.com/code/dikshabhati2002/image-segmentati
 2. Upload your kaggle.json file to Google Colab. Follow https://www.kaggle.com/general/74235 for reference
 3. Select Runtime type: GPU
 4. Run the notebook
+
+## Results
+![image](results.png)
+
+The masks are predicted with 80% accuracy after training for 14 Epochs and an early stoppage. The model is trained on a GPU. The model is saved in the .h5 format. The model can be loaded and used for predictions and can be trained for more epochs to get better results.
