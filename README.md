@@ -8,7 +8,7 @@ CNN Model Used: **U-Net Model**
 #### About U-Net
 https://arxiv.org/abs/1505.04597
 
-A U-Net consists of an encoder (downsampler) and decoder (upsampler). The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. In-order to learn robust features, and reduce the number of trainable parameters, a pretrained model is used as the encoder.The encoder is a pretrained MobileNetV2 model which is prepared and ready to use in tf.keras.applications.
+A U-Net consists of an encoder (downsampler) and decoder (upsampler). The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. A network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. In-order to learn robust features, and reduce the number of trainable parameters, a pretrained model is used as the encoder. The encoder is a pretrained MobileNetV2 model which is prepared and ready to use in tf.keras.applications.
 
 Here, the U-net Model is used to perform semantic segmentation on water bodies images captured by the Sentinel-2 Satellite.
 
